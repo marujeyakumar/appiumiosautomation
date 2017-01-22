@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Html Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>dubdub Automated test report</td>
+                          <td>1</td>
+                        <td>29 Aug 2016, 22:53</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportAVideoToATrack()</td>
+                <td>5</td>
+                <td class="duration" data-value="517656137737">8m 37s 656ms</td>
+                <td class="duration" data-value="103531227547">1m 43s 531ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportAVideoToTheSecondTrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="30110676314">30s 110ms</td>
+                <td class="duration" data-value="30110676314">30s 110ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportAnImageToATrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="151418624330">2m 31s 418ms</td>
+                <td class="duration" data-value="151418624330">2m 31s 418ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportAnImageToTheSecondTrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="92055621233">1m 32s 055ms</td>
+                <td class="duration" data-value="92055621233">1m 32s 055ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportDubsoundToATrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="110641407019">1m 50s 641ms</td>
+                <td class="duration" data-value="110641407019">1m 50s 641ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportDubsoundToTheSecondTrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="38672341913">38s 672ms</td>
+                <td class="duration" data-value="38672341913">38s 672ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportTextToATrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="91942173153">1m 31s 942ms</td>
+                <td class="duration" data-value="91942173153">1m 31s 942ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iImportTextToTheSecondTrack()</td>
+                <td>1</td>
+                <td class="duration" data-value="43801396842">43s 801ms</td>
+                <td class="duration" data-value="43801396842">43s 801ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iPressAndHoldToMixASecondSegment()</td>
+                <td>1</td>
+                <td class="duration" data-value="14675211740">14s 675ms</td>
+                <td class="duration" data-value="14675211740">14s 675ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.iPressAndHoldToMixASegment()</td>
+                <td>8</td>
+                <td class="duration" data-value="130903401529">2m 10s 903ms</td>
+                <td class="duration" data-value="16362925191">16s 362ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.itWillMixForSecondsSucessfully(int)</td>
+                <td>4</td>
+                <td class="duration" data-value="33048885107">33s 048ms</td>
+                <td class="duration" data-value="8262221276">8s 262ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.setUp()</td>
+                <td>9</td>
+                <td class="duration" data-value="261617144655">4m 21s 617ms</td>
+                <td class="duration" data-value="29068571628">29s 068ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.tearDown()</td>
+                <td>9</td>
+                <td class="duration" data-value="19123017450">19s 123ms</td>
+                <td class="duration" data-value="2124779716">2s 124ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.theDubsoundSegmentGetsCommittedToTheMix()</td>
+                <td>1</td>
+                <td class="duration" data-value="7676670075">7s 676ms</td>
+                <td class="duration" data-value="7676670075">7s 676ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.theImageSegmentGetsCommittedToTheMix()</td>
+                <td>1</td>
+                <td class="duration" data-value="7847807475">7s 847ms</td>
+                <td class="duration" data-value="7847807475">7s 847ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.theTextSegmentGetsCommittedToTheMix()</td>
+                <td>1</td>
+                <td class="duration" data-value="7948612968">7s 948ms</td>
+                <td class="duration" data-value="7948612968">7s 948ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DubSuiteStepDefs.theVideoSegmentGetsCommittedToTheMix()</td>
+                <td>1</td>
+                <td class="duration" data-value="7979780150">7s 979ms</td>
+                <td class="duration" data-value="7979780150">7s 979ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.homeButtonIsHighlighted()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="skipped">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.iLaunchDubdub()</td>
+                <td>1</td>
+                <td class="duration" data-value="46321">000ms</td>
+                <td class="duration" data-value="46321">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.iLookAtTheScreen()</td>
+                <td>1</td>
+                <td class="duration" data-value="18352">000ms</td>
+                <td class="duration" data-value="18352">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.setUp()</td>
+                <td>9</td>
+                <td class="duration" data-value="40002384">040ms</td>
+                <td class="duration" data-value="4444709">004ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.tabbarHasButtons(int)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="skipped">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.tearDown()</td>
+                <td>9</td>
+                <td class="duration" data-value="166439">000ms</td>
+                <td class="duration" data-value="18493">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomePageStepDefs.thereShouldBeACreateButton(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="4283438578">4s 283ms</td>
+                <td class="duration" data-value="2141719289">2s 141ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot>
+            <tr>
+              <td>24</td>
+              <td>71</td>
+              <td class="duration">26m 11s 442ms</td>
+              <td class="duration">22s 132ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

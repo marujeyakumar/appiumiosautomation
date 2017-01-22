@@ -1,0 +1,932 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39290810,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 63295163462,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Mixing with Video",
+        "description": "",
+        "id": "dubsuite;mixing-with-video",
+        "after": [
+          {
+            "result": {
+              "duration": 17867,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2416428183,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104327519942,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I import a video to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAVideoToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15655194079,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7979780150,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the video segment gets committed to the mix",
+            "match": {
+              "location": "DubSuiteStepDefs.theVideoSegmentGetsCommittedToTheMix()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 107767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24752982950,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Mixing with Image",
+        "description": "",
+        "id": "dubsuite;mixing-with-image",
+        "after": [
+          {
+            "result": {
+              "duration": 16481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2819189736,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151418624330,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I import an image to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAnImageToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15287057897,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7847807475,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the image segment gets committed to the mix",
+            "match": {
+              "location": "DubSuiteStepDefs.theImageSegmentGetsCommittedToTheMix()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 88980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24755204435,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Mixing with Text",
+        "description": "",
+        "id": "dubsuite;mixing-with-text",
+        "after": [
+          {
+            "result": {
+              "duration": 13686,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1875395296,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91942173153,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Import text to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportTextToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15520760512,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7948612968,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the text segment gets committed to the mix",
+            "match": {
+              "location": "DubSuiteStepDefs.theTextSegmentGetsCommittedToTheMix()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 80363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24694387379,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Mixing with dubsound",
+        "description": "",
+        "id": "dubsuite;mixing-with-dubsound",
+        "after": [
+          {
+            "result": {
+              "duration": 14204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2138750043,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110641407019,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I import dubsound to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportDubsoundToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17842097252,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7676670075,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the dubsound segment gets committed to the mix",
+            "match": {
+              "location": "DubSuiteStepDefs.theDubsoundSegmentGetsCommittedToTheMix()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 84063,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 23502920858,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Mixing Video and Dubsound",
+        "description": "",
+        "id": "dubsuite;mixing-video-and-dubsound",
+        "after": [
+          {
+            "result": {
+              "duration": 35144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2162794503,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103296970748,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I import a video to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAVideoToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38672341913,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I import dubsound to the second track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportDubsoundToTheSecondTrack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18882646633,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8598747672,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "it will mix for 5 seconds sucessfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "DubSuiteStepDefs.itWillMixForSecondsSucessfully(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101624,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26240726341,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Mixing Video and Text",
+        "description": "",
+        "id": "dubsuite;mixing-video-and-text",
+        "after": [
+          {
+            "result": {
+              "duration": 20603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2122155321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103529189145,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I import a video to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAVideoToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43801396842,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I import text to the second track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportTextToTheSecondTrack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15667697762,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8093417560,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "it will mix for 5 seconds sucessfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "DubSuiteStepDefs.itWillMixForSecondsSucessfully(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 69580,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24797070965,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Mixing Video and Image",
+        "description": "",
+        "id": "dubsuite;mixing-video-and-image",
+        "after": [
+          {
+            "result": {
+              "duration": 13680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1688880980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103340801202,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I import a video to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAVideoToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92055621233,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I import an image to the second track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAnImageToTheSecondTrack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15850262903,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8305033794,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "it will mix for 5 seconds sucessfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "DubSuiteStepDefs.itWillMixForSecondsSucessfully(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97298,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24845920549,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Mixing with Two Videos",
+        "description": "",
+        "id": "dubsuite;mixing-with-two-videos",
+        "after": [
+          {
+            "result": {
+              "duration": 18561,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2014758653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103161656700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I import a video to a track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAVideoToATrack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30110676314,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I import a video to the second track",
+            "match": {
+              "location": "DubSuiteStepDefs.iImportAVideoToTheSecondTrack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16197684491,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I press and hold to mix a segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASegment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14675211740,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I press and hold to mix a second segment",
+            "match": {
+              "location": "DubSuiteStepDefs.iPressAndHoldToMixASecondSegment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8051686081,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "it will mix for 10 seconds sucessfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 16
+                }
+              ],
+              "location": "DubSuiteStepDefs.itWillMixForSecondsSucessfully(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DubSuite",
+    "description": "",
+    "id": "dubsuite",
+    "keyword": "Feature",
+    "uri": "com/dubdub/tests/DubSuite.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 81899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24732767716,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Launch dubdub",
+        "description": "",
+        "id": "homepage;launch-dubdub",
+        "after": [
+          {
+            "result": {
+              "duration": 16213,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefs.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1884664735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DubSuiteStepDefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46321,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch dubdub",
+            "match": {
+              "location": "HomePageStepDefs.iLaunchDubdub()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18352,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I look at the screen",
+            "match": {
+              "location": "HomePageStepDefs.iLookAtTheScreen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4283438578,
+              "error_message": "java.lang.AssertionError: expected:\u003cfalse\u003e but was:\u003ctrue\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.dubdub.tests.HomePageStepDefs.thereShouldBeACreateButton(HomePageStepDefs.java:43)\n\tat ✽.Then there should be a createeeeee button(com/dubdub/tests/HomePage.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "there should be a createeeeee button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createeeeee",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageStepDefs.thereShouldBeACreateButton(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "there should be a watch button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "watch",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageStepDefs.thereShouldBeACreateButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "tabbar has 49 buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "49",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageStepDefs.tabbarHasButtons(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "home button is highlighted",
+            "match": {
+              "location": "HomePageStepDefs.homeButtonIsHighlighted()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "com/dubdub/tests/HomePage.feature"
+  }
+]
